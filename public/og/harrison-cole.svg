@@ -1,0 +1,15 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#1e1b4b"/>
+  <rect x="0" y="0" width="1200" height="630" fill="url(#g)" opacity="0.1"/>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+  <text x="80" y="200" font-family="system-ui, sans-serif" font-size="64" font-weight="700" fill="#eef2ff">Harrison &amp; Cole</text>
+  <text x="80" y="260" font-family="system-ui, sans-serif" font-size="56" font-weight="400" fill="#eef2ff">Attorneys at Law</text>
+  <line x1="80" y1="300" x2="400" y2="300" stroke="#6366f1" stroke-width="4" stroke-linecap="round"/>
+  <text x="80" y="360" font-family="system-ui, sans-serif" font-size="28" fill="#c7d2fe">$500M+ Recovered — Free Consultation</text>
+  <text x="80" y="540" font-family="system-ui, sans-serif" font-size="20" fill="#a5b4fc">jaostudio.com/harrison-cole</text>
+</svg>

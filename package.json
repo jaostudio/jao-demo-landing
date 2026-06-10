@@ -1,0 +1,42 @@
+{
+  "name": "landingpage-demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "qa": "tsx scripts/qa/runner.ts",
+    "qa:construction": "tsx scripts/qa/runner.ts construction",
+    "audit": "tsx scripts/qa/runAudit.ts"
+  },
+  "dependencies": {
+    "@jaostudio/core": "^0.1.0",
+    "@jaostudio/engine": "^0.1.0",
+    "@jaostudio/ui": "^0.1.0",
+    "@vercel/analytics": "^2.0.1",
+    "clsx": "^2.1.0",
+    "framer-motion": "^12.0.0",
+    "lucide-react": "^0.500.0",
+    "next": "^16.1.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "tailwind-merge": "^3.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.0",
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/node": "^22.0.0",
+    "@types/pixelmatch": "^5.2.6",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^16.1.0",
+    "pixelmatch": "^5.3.0",
+    "playwright": "^1.60.0",
+    "ts-morph": "^28.0.0",
+    "tsx": "^4.22.4",
+    "typescript": "^5.7.0"
+  }
+}
